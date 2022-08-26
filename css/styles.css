@@ -68,11 +68,29 @@ img {
 
 .header-container {
 display: flex;
+align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    padding: 0;
+}
+.nav-item {
+    display: inline-block;
+}
+.nav-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-right: 50px;
 }
 
 
+.link:not(last-child) {
+    margin-right: 0;
+}
 .header-contacts {
-display: flex;
+    display: flex;
+    margin-left: auto;
 }
 .logo-link {
     font-family: var(--secondary-font);
