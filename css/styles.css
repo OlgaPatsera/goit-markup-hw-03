@@ -38,7 +38,42 @@ color: var(--main-txt-cl);
 background-color: var(--accent-bg-cl);
 letter-spacing: 0.03em;
 }
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.section {
+    padding-top: ;
+    padding-bottom: ;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    outline: 2px solid red;
+}
 /*Header*/
+
+.header-container {
+display: flex;
+}
+
+
+.header-contacts {
+display: flex;
+}
 .logo-link {
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -52,6 +87,7 @@ letter-spacing: 0.03em;
 }
 .nav-item {
     list-style: none;
+    display: inline-box;
 }
 .header-item {
     list-style: none;
