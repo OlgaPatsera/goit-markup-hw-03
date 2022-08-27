@@ -414,11 +414,15 @@ align-items: center;
   font-size: 16px;
   line-height: calc(30 / 16);
   color: var(--secondary-txt-cl);
+  margin-top: 4px;
 }
 .portfolio-item {
   width: 370px;
-  border: var(--portfolio-cards-border);
+  ;
 }
 .portfolio-group {
-  margin: 20px 24px;
+  padding: 20px 24px 19px 24px;
+  border-left: var(--portfolio-cards-border);
+  border-right: var(--portfolio-cards-border);
+  border-bottom: var(--portfolio-cards-border);
 }
