@@ -156,6 +156,7 @@ img {
   color: var(--link-hvr-cl);
 }
 /*Footer*/
+
 .footer {
   background-color: var(--dark-bg-cl);
 }
@@ -170,7 +171,6 @@ img {
   padding-left: 0;
   flex-direction: column;
   width: 231px;
-  height: 81px;
 }
 
 .logo-footer {
@@ -185,7 +185,7 @@ img {
   list-style: none;
 }
 .contacts-item:not(:last-child){
-  margin-bottom: 9px;
+  margin-bottom: 6px;
 }
 
 .link-address {
