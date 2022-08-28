@@ -325,7 +325,6 @@ img {
   margin-bottom: 0;
   padding-left: 0;
 
-
   list-style: none;
 }
 .teams-item {
@@ -333,7 +332,7 @@ img {
   flex-direction: column;
   width: 270px;
 }
-.teams-item {
+.teams-item:not(:last-child) {
   margin-right: 30px;
 }
 .teams-title {
