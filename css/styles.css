@@ -160,7 +160,7 @@ img {
 .footer {
   background-color: var(--dark-bg-cl);
 }
-.footer-container {
+.footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
