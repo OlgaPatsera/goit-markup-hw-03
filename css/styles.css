@@ -73,19 +73,24 @@ img {
   margin-right: auto;
 }
 /*Header*/
+
 .header {
   border-bottom: var(--header-border);
 }
 .header-container {
   display: flex;
   align-items: center;
-
+}
+nav {
+  margin-left: 93px;
 }
 
 .nav-list {
   display: flex;
   padding: 0;
-  margin: 0 0 0 93px;
+  margin-top: 0;
+  margin-bottom: 0;
+  
 }
 
 .header-contacts {
@@ -165,14 +170,14 @@ img {
   padding-bottom: 60px;
 }
 .contacts-list { 
-  display: flex;
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  flex-direction: column;
-  width: 231px;
 }
 
+.contacts {
+    margin-top: 20px;
+}
 .logo-footer {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -209,15 +214,11 @@ img {
 /*HERO*/
 .hero {
   background-color: var(--dark-bg-cl);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
-.hero-container {
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
+
 .hero-title {
   width: 696px;
   font-weight: 900;
@@ -226,7 +227,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-title-cl);
-  text-align: center;
+  margin: 0 auto;
 }
 .hero-btn {
   min-width: 216px;
@@ -236,7 +237,6 @@ img {
   margin-top: 30px;
   border: var(--hero-border);
   border-radius: var(--btn-radius);
-  cursor: pointer;
 
   color: var(--hero-btn-txt);
   background-color: var(--hero-btn-cl);
@@ -253,7 +253,6 @@ img {
 
 .feature-list {
   display: flex;
-  flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -264,7 +263,6 @@ img {
   display: flex;
   flex-direction: column;
   width: 270px;
-  margin-bottom: 50px;
   list-style: none;
 }
 
@@ -317,6 +315,8 @@ img {
 .teams-group {
   background-color: var(--teams-link-bg);
   border-radius: var(--teams-border-radius);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .teams-list {
@@ -324,7 +324,6 @@ img {
   margin-top: 50px;
   margin-bottom: 0;
   padding-left: 0;
-
   list-style: none;
 }
 .teams-item {
@@ -345,7 +344,7 @@ img {
   background-color: var(--light-bg-cl);
 }
 .teams-subtitle {
-  margin-top: 30px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -353,7 +352,6 @@ img {
 }
 .teams-text {
   margin-top: 10px;
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: calc(19 / 16);
   color: var(--secondary-txt-cl);
